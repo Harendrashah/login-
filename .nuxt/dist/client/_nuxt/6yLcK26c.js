@@ -1,1 +1,0 @@
-import{_ as s,D as a,x as l,e as n,j as e,h as r}from"./DbE0XkkC.js";const u={class:"logout-page"},_={__name:"logout",setup(c){const t=a();return l(()=>{localStorage.removeItem("loggedIn"),t.push("/")}),(p,o)=>(r(),n("div",u,o[0]||(o[0]=[e("h1",null,"Logging out...",-1),e("p",null,"Please wait...",-1)])))}},d=s(_,[["__scopeId","data-v-5960865a"]]);export{d as default};
