@@ -1,0 +1,164 @@
+<template>
+  <div>
+    <div class="bg-gray-300 w-[100%] h-[100vh]">
+      <div class="text-xl font-medium p-5">Pricing</div>
+      <div class="justify-center items-center mb-1 p-10 flex gap-3">
+        <div class="bg-white w-[25%] min-h-[60vh] p-12">
+          <div class="flex flex-col justify-center items-center gap-5">
+            <div class="text-2xl font-normal">Basic</div>
+            <!-- <div class="flex items-baseline">
+                <div class="text-2xl font-medium">$25</div>
+                <div class="text-gray-300">/mon</div>
+              </div>
+              <div>
+                <div class="text-2xl font-medium">$25</div>
+                <span class="text-gray-300">/mon</span>
+              </div> -->
+            <div class="mb-5">
+              <span class="text-2xl font-medium">$25</span>
+              <span class="text-gray-400">/mon</span>
+            </div>
+          </div>
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between">
+              <div class="text-gray-300">Customizer</div>
+              <div class="text-black">14 days trial</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Chat History</div>
+              <div class="text-black">No</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Statistics</div>
+              <div class="text-black">14 days trial</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Support</div>
+              <div class="text-black">Yes</div>
+            </div>
+            <div class="border border-b-1"></div>
+            <div class="flex justify-between">
+              <div class="text-gray-300">Live Support</div>
+              <div class="text-black">No</div>
+            </div>
+            <div class="border border-b-1"></div>
+          </div>
+          <div class="mt-8 text-center">
+            <button
+              class="bg-blue-500 text-white text-center font-semibold py-3 px-[70px]"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="bg-blue-500 w-[25%] min-h-[67vh] p-2">
+          <div class="flex flex-col justify-center items-center gap-5">
+            <div class="text-2xl text-white font-normal">Basic</div>
+
+            <div class="mb-5">
+              <span class="text-2xl text-white font-medium">$25</span>
+              <span class="text-gray-300">/mon</span>
+            </div>
+          </div>
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between">
+              <div class="text-white">Customizer</div>
+              <div class="text-white">14 days trial</div>
+            </div>
+            <div class="border border-gray-300 border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-white">Chat History</div>
+              <div class="text-white">No</div>
+            </div>
+            <div class="border border-b-1 border-gray-300"></div>
+
+            <div class="flex justify-between">
+              <div class="text-white">Statistics</div>
+              <div class="text-white">14 days trial</div>
+            </div>
+            <div class="border border-b-1 border-gray-300"></div>
+
+            <div class="flex justify-between">
+              <div class="text-white">Support</div>
+              <div class="text-white">Yes</div>
+            </div>
+            <div class="border border-b-1 border-gray-300"></div>
+            <div class="flex justify-between">
+              <div class="text-white">Live Support</div>
+              <div class="text-white">No</div>
+            </div>
+            <div class="border border-b-1 border-gray-300"></div>
+          </div>
+          <div class="mt-12 text-center">
+            <button
+              class="bg-white text-blue-500 text-center font-semibold py-3 px-[70px]"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+        <div class="bg-white w-[25%] min-h-[60vh] p-12">
+          <div class="flex flex-col justify-center items-center gap-5">
+            <div class="text-2xl font-normal">Basic</div>
+            <!-- <div class="flex items-baseline">
+                <div class="text-2xl font-medium">$25</div>
+                <div class="text-gray-300">/mon</div>
+              </div>
+              <div>
+                <div class="text-2xl font-medium">$25</div>
+                <span class="text-gray-300">/mon</span>
+              </div> -->
+            <div class="mb-5">
+              <span class="text-2xl font-medium">$25</span>
+              <span class="text-gray-400">/mon</span>
+            </div>
+          </div>
+          <div class="flex gap-3 flex-col">
+            <div class="flex justify-between">
+              <div class="text-gray-300">Customizer</div>
+              <div class="text-black">14 days trial</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Chat History</div>
+              <div class="text-black">No</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Statistics</div>
+              <div class="text-black">14 days trial</div>
+            </div>
+            <div class="border border-b-1"></div>
+
+            <div class="flex justify-between">
+              <div class="text-gray-300">Support</div>
+              <div class="text-black">Yes</div>
+            </div>
+            <div class="border border-b-1"></div>
+            <div class="flex justify-between">
+              <div class="text-gray-300">Live Support</div>
+              <div class="text-black">No</div>
+            </div>
+            <div class="border border-b-1"></div>
+          </div>
+          <div class="mt-8 text-center">
+            <button
+              class="bg-blue-500 text-white text-center font-semibold py-3 px-[70px]"
+            >
+              Get Started
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
